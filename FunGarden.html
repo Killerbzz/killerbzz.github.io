@@ -16,6 +16,8 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
+	<link rel="stylesheet" href="sass/_blog-single.scss">
+
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -54,7 +56,7 @@
 			<nav class="main__menu">
 				<ul class="nav__menu">
 					<li><a href="./index.html">Home</a></li>
-					<li><a href="./blog.html">Architecture Projects</a>
+					<li><a href="./blog.html" class="menu--active">Architecture Projects</a>
 						<ul class="sub__menu">
 							<li><a href="./FunGarden.html">Fun Garden</a></li>
 							<li><a href="./ANewWayIn.html">A New Way In</a></li>
@@ -62,7 +64,7 @@
 							<li><a href="./IntoTheRock.html">Into The Rock</a></li>
 						</ul>
 					</li>
-					<li><a href="./gallery.html" class="menu--active">Other Projects</a></li>
+					<li><a href="./gallery.html">Other Projects</a></li>
 					<li><a href="./about me.html">About Me</a></li>
 				</ul>
 			</nav>
@@ -70,29 +72,46 @@
 	</header>
 	<!-- Header Section end -->
 
-	<!-- About Page -->
-	<div class="gallery__page">
-		<div class="gallery__warp">
-			<div class="row">
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a class="gallery__item fresco" href="img/Illustration/1.png" data-fresco-group="gallery">
-						<img src="img/Illustration/1.png" alt="">
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a class="gallery__item fresco" href="img/Illustration/2.jpg" data-fresco-group="gallery">
-						<img src="img/Illustration/2.jpg" alt="">
-					</a>
-				</div>
-				<div class="col-lg-3 col-md-4 col-sm-6">
-					<a class="gallery__item fresco" href="img/Illustration/3.png" data-fresco-group="gallery">
-						<img src="img/Illustration/3.png" alt="">
-					</a>
+	<!-- Blog Page -->
+	<div class="blog__single__page">
+		<article class="blog__article">
+			<div class="blog__container">
+				<div class="blog__header">
+					<h2 class="blog__single__title" style="margin-top:50px;">'Fun Garden'<br />
+						Resilient Futures in Sarajevo</h2>
+					<div class="blog__metas">
+						<div class="blog__meta">Spring 2021</div>
+						<div class="blog__meta">Individual work</div>
+						<div class="blog__meta">Instructor: Lucy Dinnen</div>
+						<div class="blog__meta">Site: Alta Shooping Mall, Franca Lehara 2, Sarajevo 71000, Bosnia & Herzegovina</div>
+					</div>
 				</div>
 			</div>
-		</div>
+			<blockquote>
+				<p>Sed dignissim justo. Suspendisse fermentum erat. Duis consequat tortor. Mauris ut tellus a dolor. Suspendisse nec tellus. Donec quis lacus magna, sollicitudin id, turpis. Mauris in velit vel sollicitudin justo. Proin vitae massa nec cursus magna. Fusce blandit eu, ullamcorper in.</p>
+				<h4>Marvin Barber</h4>
+				<h5>PHOTOGRAPHY</h5>
+			</blockquote>
+			<div class="blog__container">
+				<h4>Assorted Textures FREE Stock Photos</h4>
+				<p>As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity. </p>
+				<p>Sussex result matter any end see. It speedily me addition weddings vicinity in pleasure. Happiness commanded an conveying breakfast in. Regard her say warmly elinor. Him these are visit front end for seven walls. Money eat scale now ask law learn. Side its they just any upon see last. He prepared no shutters perceive do greatest. Ye at unpleasant solicitude in companions interested. </p>
+			</div>
+			<div class="blog__banner pt-4 pb-5">
+				<img src="img/Architecture/1/1.jpg" alt="">
+				<img src="img/Architecture/1/2.jpg" alt="">
+				<img src="img/Architecture/1/3.jpg" alt="">
+				<img src="img/Architecture/1/4.jpg" alt="">
+				<img src="img/Architecture/1/5.jpg" alt="">
+				<img src="img/Architecture/1/6.jpg" alt="">
+				<img src="img/Architecture/1/7.jpg" alt="">
+
+			</div>
+			<div class="blog__container post__footer">
+			</div>
+		</article>
 	</div>
-	<!-- About Page end -->
+	<!-- Blog Page end -->
 
 	<!-- Footer Section -->
 	<footer class="footer__section">
@@ -121,7 +140,6 @@
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
 	<script src="js/slick.min.js"></script>
-	<script src="js/fresco.min.js"></script>
 	<script src="js/main.js"></script>
 
 	</body>
