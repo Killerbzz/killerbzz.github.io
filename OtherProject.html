@@ -16,8 +16,6 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
-	<link rel="stylesheet" href="sass/_blog-single.scss">
-
 
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -56,7 +54,7 @@
 			<nav class="main__menu">
 				<ul class="nav__menu">
 					<li><a href="./index.html">Home</a></li>
-					<li><a href="./blog.html" class="menu--active">Architecture Projects</a>
+					<li><a href="./blog.html">Architecture Projects</a>
 						<ul class="sub__menu">
 							<li><a href="./RewildingAttercliffe.html">Rewilding Attercliffe</a></li>
 							<li><a href="./FunGarden.html">Fun Garden</a></li>
@@ -65,7 +63,7 @@
 							<li><a href="./IntoTheRock.html">Into The Rock</a></li>
 						</ul>
 					</li>
-					<li><a href="./gallery.html">Other Projects</a></li>
+					<li><a href="./gallery.html" class="menu--active">Other Projects</a></li>
 					<li><a href="./about me.html">About Me</a></li>
 				</ul>
 			</nav>
@@ -73,38 +71,29 @@
 	</header>
 	<!-- Header Section end -->
 
-	<!-- Blog Page -->
-	<div class="blog__single__page">
-		<article class="blog__article">
-			<div class="blog__container">
-				<div class="blog__header">
-					<h2 class="blog__single__title" style="margin-top:50px;">'The Pathway'<br />
-						RIBA North New Headquarter</h2>
-					<div class="blog__metas">
-						<div class="blog__meta">BA Year 2 Project</div>
-					</div>
+	<!-- About Page -->
+	<div class="gallery__page">
+		<div class="gallery__warp">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco" href="" data-fresco-group="gallery">
+						<img src="" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco" href="" data-fresco-group="gallery">
+						<img src="" alt="">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco" href="" data-fresco-group="gallery">
+						<img src="" alt="">
+					</a>
 				</div>
 			</div>
-			<div class="blog__container">
-				<h4>Information</h4>
-				<p>Spring 2019, Individual work</p>
-				<p>Instructor: Macus Schofield</p>
-				<p>Site: Intersection of Strand St. and James St., Liverpool<p>
-				<h4>Description</h4>
-				<p>The project of 'the pathway _ RIBA North new headquarter' tries to form a classical mixed-use space in downtown, basing on the concept of RIBA walking tour, and the project reflects what a mixed-use building be like to approach the needs of users.</p>
-				<p>By experiencing the walking tour personally, the route shapes like a closed circle geographily. In order to make the tour more completed, I hope the building can be a part of the walking tour. Moreover, the tour shows the past glory of Liverpool architecture. While RIBA North exhibits some outstanding modern projects. Therefore, the building is a good connection of the past and the present. I hope when people visit the building, they can feel the development of the city. </p>
-			</div>
-			<div class="blog__banner pt-4 pb-5">
-				<img src="img/Architecture/3/1.jpg" alt="">
-				<img src="img/Architecture/3/2.jpg" alt="">
-				<img src="img/Architecture/3/3.jpg" alt="">
-				<img src="img/Architecture/3/4.jpg" alt="">
-			</div>
-			<div class="blog__container post__footer">
-			</div>
-		</article>
+		</div>
 	</div>
-	<!-- Blog Page end -->
+	<!-- About Page end -->
 
 	<!-- Footer Section -->
 	<footer class="footer__section">
@@ -133,6 +122,7 @@
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script src="js/fresco.min.js"></script>
 	<script src="js/main.js"></script>
 
 	</body>
